@@ -1,0 +1,21 @@
+.center{
+    text-align: center;
+}
+
+.paragraph{
+    color: blue;
+}
+
+#parah1{
+    text-align: center;
+}
+
+#parah2{
+    text-align: right;
+    text-decoration: line-through;
+}
+
+#parah3{
+    text-transform: capitalize;
+    text-wrap:initial;
+}
