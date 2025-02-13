@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(255, 116, 190);
+            position: absolute;
+            left:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="s1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, accusantium nesciunt. Autem laboriosam repudiandae quod neque reprehenderit doloribus, ab assumenda?
+    </div>
+</body>
+</html>
