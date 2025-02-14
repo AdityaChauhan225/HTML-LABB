@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            color: black;
+            display: flex;
+            border: black;
+           padding: 5px;
+            opacity: 20%;
+            transition:  width 2s, height 5s,border 7s, text-align 10s ,opacity 7s ;
+            overflow: hidden;
+            
+        }
+        .box:hover{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            display: flex;
+            text-align: center;
+            border: 5px magenta dashed;
+            opacity: 1;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quod hic excepturi. Saepe suscipit itaque harum natus voluptate quo eveniet, veritatis illo! Assumenda vero, labore corporis itaque nesciunt necessitatibus ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facere.
+    </div>
+</body>
+</html>

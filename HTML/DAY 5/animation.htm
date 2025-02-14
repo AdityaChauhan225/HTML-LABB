@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 300px;
+            background-color:wheat;
+            color: magenta;
+
+            animation-name: animate;
+            animation-duration: 5s;
+        }
+        @keyframes animate{
+            from{background-color: black; color: aliceblue; height: 0px; width: 0px; overflow: hidden;}
+            to{ height: 200px;
+            width: 300px;
+            background-color:wheat;
+            color: magenta;
+            overflow: scroll;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet con Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sint? At omnis eaque quos repudiandae. sectetur adipisicing elit. Id nostrum debitis molestiae ab accusantium alias aut at laudantium illo. Nam!
+    </div>
+</body>
+</html>
